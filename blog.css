@@ -1,3 +1,21 @@
+/* .dark-theme {
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+  --secondary-color-text: #fff;
+  --contact-section: #fff;
+  --about-button: #212121;
+  --marksoc-blue: #2d99c7;
+} */
+
+:root {
+  --about-button: #2d99c7;
+  --marksoc-blue: #2d99c7;
+  --contact-section: rgb(24, 24, 24);
+  --primary-color: #000106;
+  --secondary-color: #fff;
+  --secondary-color-text: #fff;
+}
+
 .card-holder {
   display: flex;
   flex-wrap: wrap;
@@ -6,6 +24,7 @@
   margin: 2rem;
   gap: 2rem;
   margin: 100px auto;
+  color: var(--secondary-color);
 }
 
 img {
@@ -19,9 +38,10 @@ img {
   flex-direction: column;
   width: clamp(20rem, calc(20rem + 2vw), 22rem);
   overflow: hidden;
+  border: 0;
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  background: #ffffff;
+  background: var(--contact-section);
   /* background: linear-gradient(to right, #ffffff, #ece9e6); */
 }
 

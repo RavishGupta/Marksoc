@@ -47,7 +47,9 @@
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
           <li><a class="getstarted scrollto" href="#contact">Contact</a></li>
+          <li> <img src="./assets/img/dark theme icon/sun.png" id="icon" alt=""></li>
         </ul>
+       
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
@@ -77,7 +79,7 @@
             <div class="content">
               <h3>What does MarkSoc Do?</h3>
               <div class="img-holder">
-             <img class = "about-img" src="./assets/img/logo-white.png" alt="">
+             <img class = "about-img" src="./assets/img/logo-colored.png" alt="">
             </div>
               <a href="#" class="about-btn"> See Events <i class="bx bx-chevron-right"></i></a>
             </div>
@@ -987,7 +989,17 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+<script>
+  let icon = document.getElementById("icon");
+  icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+      icon.src = "./assets/img/dark theme icon/moon.png"
+    }else{
+      icon.src = "./assets/img/dark theme icon/sun.png"
+    }
+  }
+</script>
 </body>
 
 </html>

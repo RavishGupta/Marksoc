@@ -46,6 +46,7 @@
           <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
           <li><a class="nav-link scrollto active" href="blog.html">Blog</a></li>
           <li><a class="getstarted scrollto" href="index.html#contact">Contact</a></li>
+          <li> <img src="./assets/img/dark theme icon/sun.png" id="icon" alt=""></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -261,6 +262,17 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    let icon = document.getElementById("icon");
+    icon.onclick = function(){
+      document.body.classList.toggle("dark-theme");
+      if(document.body.classList.contains("dark-theme")){
+        icon.src = "./assets/img/dark theme icon/moon.png"
+      }else{
+        icon.src = "./assets/img/dark theme icon/sun.png"
+      }
+    }
+  </script>
 
 </body>
 
