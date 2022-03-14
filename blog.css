@@ -92,3 +92,34 @@ img {
 .user__info > small {
   color: #666;
 }
+
+.blog-hero {
+  background: url('https://source.unsplash.com/600x400/?car,automobile');
+  height: 60vh;
+  box-shadow: inset 0 0 0 50vw rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.blog-hero h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+.blog-content {
+  padding: 30px 200px;
+}
+@media only screen and (max-width: 600px) {
+  .blog-hero {
+    padding: 0 20px;
+  }
+  .blog-hero h1 {
+    font-size: 42px;
+    font-weight: 600;
+  }
+  .blog-content {
+    padding: 30px 20px;
+  }
+}
