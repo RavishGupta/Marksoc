@@ -94,7 +94,7 @@ img {
 }
 
 .blog-hero {
-  background: url('https://source.unsplash.com/600x400/?car,automobile');
+  background: url('https://images.unsplash.com/photo-1533750516457-a7f992034fec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1206&q=80');
   height: 60vh;
   box-shadow: inset 0 0 0 50vw rgba(0, 0, 0, 0.3);
   background-size: cover;
