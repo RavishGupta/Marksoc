@@ -52,7 +52,7 @@ body {
 
 .moto::before{
   content: '';
-  background-image: url(../img/portfolio/pexels-adrien-olichon-2387793.jpg);
+  background-image: url(../img/portfolio/jeremy-thomas-rMmibFe4czY-unsplash.jpg);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -61,7 +61,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .contacts{
