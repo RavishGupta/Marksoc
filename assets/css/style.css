@@ -26,12 +26,55 @@
   --primary-color: #000106;
   --secondary-color: #fff;
   --secondary-color-text: #fff;
+  --header-color: #434242
 }
 
 body {
   font-family: 'poppins', 'Open Sans', sans-serif;
   color: var(--secondary-color);
   background: var(--primary-color);
+}
+
+.moto{
+  width: 100vw;
+  height: 100vh;
+}
+
+.marksoc-moto{
+  position: absolute;
+  top: 42vh;
+  right: 6vw;
+  width: 60vw;
+  height: 100vh;
+  padding: 5px;
+  margin: 0px;
+}
+
+.moto::before{
+  content: '';
+  background-image: url(../img/portfolio/jeremy-thomas-rMmibFe4czY-unsplash.jpg);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40vh;
+  left: 1vw;
+}
+
+.contacts a{
+  padding: 6px;
+  margin: 1px;
 }
 
 a {
@@ -140,7 +183,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: var(--primary-color);
+  background: var(--header-color);
   /* border-bottom: 2px solid #eceefe; */
   transition: all 0.5s;
   z-index: 997;
