@@ -42,12 +42,15 @@ body {
 
 .marksoc-moto{
   position: absolute;
-  top: 42vh;
+  top: 39vh;
   right: 6vw;
   width: 60vw;
   height: 100vh;
   padding: 5px;
   margin: 0px;
+}
+.marksoc-moto h2{
+  font-size: 38px;
 }
 
 .moto::before{
