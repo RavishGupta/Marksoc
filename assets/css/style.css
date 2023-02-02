@@ -40,6 +40,12 @@ body {
   height: 100vh;
 }
 
+/* .container{
+  h1{
+    font-size: 200px;
+  }
+} */
+
 .marksoc-moto{
   position: absolute;
   top: 39vh;
@@ -51,7 +57,10 @@ body {
 }
 .marksoc-moto h2{
   font-size: 38px;
+  font-weight: bold;
 }
+
+
 
 .moto::before{
   content: '';
@@ -222,6 +231,7 @@ h6 {
 /**
 * Desktop Navigation 
 */
+
 .navbar {
   padding: 0;
 }
