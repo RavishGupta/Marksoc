@@ -29,26 +29,6 @@
 
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <script>
-    var textWrapper = document.querySelector('.ml3');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-    anime.timeline({ loop: true })
-      .add({
-        targets: '.marksoc-moto .letter',
-        opacity: [0, 1],
-        easing: "easeInOutQuad",
-        duration: 2250,
-        delay: (el, i) => 150 * (i + 1)
-      }).add({
-        targets: '.ml3',
-        opacity: 0,
-        duration: 1000,
-        easing: "easeOutExpo",
-        delay: 1000
-      });
-  </script>
-
 </head>
 
 <body>
@@ -82,7 +62,6 @@
       <h2>We encourage our students to solve problems and address market concerns using their creative thinking talents.
       </h2>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <div class="contacts">
       <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
           class="bi bi-instagram" viewBox="0 0 16 16">
