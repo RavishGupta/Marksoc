@@ -23,10 +23,10 @@
   --about-button: #2d99c7;
   --marksoc-blue: #2d99c7;
   --contact-section: rgb(24, 24, 24);
-  --primary-color: #000106;
+  --primary-color: #251B37;
   --secondary-color: #fff;
   --secondary-color-text: #fff;
-  --header-color: #
+  --header-color: #251B37
 }
 
 body {
@@ -42,7 +42,7 @@ body {
 
 .marksoc-moto {
   position: absolute;
-  top: 42vh;
+  top: 39vh;
   right: 6vw;
   width: 60vw;
   height: 100vh;
@@ -50,12 +50,10 @@ body {
   margin: 0px;
 }
 
-/* .marksoc-moto h2 {
-  position: absolute;
-  background: linear-gradient(to right,#FCE700,#CF0A0A,#DC5F00);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-} */
+.marksoc-moto h2{
+  font-size: 38px;
+  font-weight: bold;
+}
 
 .moto::before {
   content: '';
@@ -68,7 +66,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   z-index: -1;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 .contacts {
