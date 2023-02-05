@@ -1059,6 +1059,21 @@ section {
   transition: bottom ease-in-out 0.4s;
 }
 
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.row .member{
+  width: 20vw;
+  height: 40vh;
+  margin: 8px;
+  padding: 3px;
+}
+
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
