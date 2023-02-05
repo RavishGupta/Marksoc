@@ -584,17 +584,27 @@ section {
 }
 
 .section-title h2 {
-  font-size: 60px;
+  font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
   color: var(--secondary-color);
-  
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #aabbd7;
+  bottom: 0;
+  left: calc(50% - 25px);
 }
 
 .section-title p {
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -960,7 +970,7 @@ section {
 --------------------------------------------------------------*/
 .team {
   background: var(--primary-color);
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 .team .member {
@@ -969,7 +979,6 @@ section {
   background: #000000;
   position: relative;
   overflow: hidden;
-  hei
 }
 
 .team .member .member-info {
@@ -1049,7 +1058,39 @@ section {
   transition: bottom ease-in-out 0.4s;
 }
 
-.row{
+.team .section-title h2{
+  width: 100vw;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.team .exec-reveal{
+  display: flex;
+  justify-content: center;
+}
+
+.team .exec-reveal h3{
+  font-size: 35px;
+}
+
+.team .exec-reveal h3:hover{
+  font-size: 40px;
+}
+
+.team .core-reveal{
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.team .core-reveal h3{
+  font-size: 35px;
+}
+
+.team .core-reveal h3:hover{
+  font-size: 40px;
+}
+
+.team .row{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1057,7 +1098,7 @@ section {
 
 }
 
-.row .member{
+.team .row .member{
   width: 20vw;
   height: 40vh;
   margin: 8px;
