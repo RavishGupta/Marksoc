@@ -83,21 +83,23 @@ body {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 40vh;
+  top: 45vh;
   left: 1vw;
 }
 
 .contacts a {
-  padding: 6px;
+  padding: 10px;
   margin: 1px;
 }
 
-a {
+.moto .contacts a {
   color: var(--secondary-color);
   text-decoration: none;
 }
 
-a:hover {
+.moto .contacts a:hover {
+  background-color: #adb5c2;
+  border-radius: 2px;
   color: #2d99c7;
   text-decoration: none;
 }
@@ -231,7 +233,8 @@ h6 {
 }
 
 .logo-img img {
-  max-height: 40px;
+  max-height: 35px;
+  width: 55px;
 }
 
 .logo-section {
@@ -491,7 +494,7 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: var(--primary-color);
   /* border-bottom: 2px solid white; */
@@ -503,21 +506,26 @@ h6 {
 }
 
 #hero h1 {
+  width: 100vw;
   margin: 0;
-  font-size: 48px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 56px;
-  color: #141d2b;
-  width: 60%;
+  /* color: #141d2b; */
   color: var(--secondary-color);
+  background: linear-gradient(to right, #f32170, #ff6b08,
+      #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
-#hero h2 {
-  color: #466393;
-  margin: 15px 0 0 0;
-  font-size: 24px;
-  color: var(--secondary-color);
-  font-weight: 400;
+#hero h3 {
+  padding: 5px;
+  margin: 20px;
+  background: linear-gradient(to right, #FFEA20, #ff6b08,
+      #551d9a, #dcb14e);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 #hero .btn-get-started {
@@ -531,7 +539,7 @@ h6 {
   border-radius: 5px;
   transition: 0.5s;
   color: var(--secondary-color-text);
-  background: var(--marksoc-blue);
+  background: #7077b3;
 }
 
 #hero .btn-get-started:hover {
@@ -1108,7 +1116,7 @@ section {
   border-radius: 50%;
 }
 
-.team .row .member img{
+.team .row .member img {
   width: 20vw;
   height: 40vh;
   border-radius: 50%;
@@ -1502,4 +1510,8 @@ section {
   width: 25px;
   cursor: pointer;
   margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
 }
