@@ -43,7 +43,7 @@ body {
 
 
 
-.marksoc-moto{
+.marksoc-moto {
   position: absolute;
   top: 39vh;
   right: 6vw;
@@ -52,14 +52,15 @@ body {
   padding: 5px;
   margin: 0px;
 }
-.marksoc-moto h2{
+
+.marksoc-moto h2 {
   font-size: 38px;
   font-weight: bold;
 }
 
 
 
-.marksoc-moto h2{
+.marksoc-moto h2 {
   font-size: 38px;
   font-weight: bold;
 }
@@ -1058,39 +1059,40 @@ section {
   transition: bottom ease-in-out 0.4s;
 }
 
-.team .section-title h2{
+.team .section-title h2 {
   width: 100vw;
   font-size: 60px;
   font-weight: bold;
 }
 
-.team .exec-reveal{
+.team .exec-reveal {
   display: flex;
   justify-content: center;
 }
 
-.team .exec-reveal h3{
+.team .exec-reveal h3 {
   font-size: 35px;
 }
 
-.team .exec-reveal h3:hover{
+.team .exec-reveal h3:hover {
   font-size: 40px;
 }
 
-.team .core-reveal{
+.team .core-reveal {
   line-height: 40px;
   display: flex;
   justify-content: center;
 }
-.team .core-reveal h3{
+
+.team .core-reveal h3 {
   font-size: 35px;
 }
 
-.team .core-reveal h3:hover{
+.team .core-reveal h3:hover {
   font-size: 40px;
 }
 
-.team .row{
+.team .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1098,7 +1100,7 @@ section {
 
 }
 
-.team .row .member{
+.team .row .member {
   width: 20vw;
   height: 40vh;
   margin: 8px;
