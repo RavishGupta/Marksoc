@@ -88,8 +88,13 @@ body {
 }
 
 .contacts a {
-  padding: 10px;
-  margin: 1px;
+  padding: 9px;
+  margin: 5px;
+}
+
+.contacts a svg{
+  height: 20px;
+  width: 20px;
 }
 
 .moto .contacts a {
@@ -97,11 +102,9 @@ body {
   text-decoration: none;
 }
 
-.moto .contacts a:hover {
-  background-color: #adb5c2;
-  border-radius: 2px;
-  color: #2d99c7;
-  text-decoration: none;
+.moto .contacts a svg:hover {
+  height: 24px;
+  width: 24px;
 }
 
 h1,
