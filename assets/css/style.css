@@ -1113,14 +1113,15 @@ section {
   height: 40vh;
   margin: 8px;
   padding: 3px;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 .team .row .member img {
   width: 20vw;
   height: 40vh;
-  border-radius: 50%;
+  border-radius: 10px;
 }
+
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
