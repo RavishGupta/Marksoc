@@ -334,7 +334,7 @@ h6 {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: var(--secondary-color);
+  background: #7077b3;
   padding: 9px 25px;
   margin-left: 30px;
   border-radius: 5px;
@@ -581,7 +581,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: var(--secondary-color);
+  background: var(--marksoc-blue);
   color: var(--primary-color);
 }
 
