@@ -342,7 +342,7 @@ h6 {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #7077b3;
+  background: var(--marksoc-blue);
   padding: 9px 25px;
   margin-left: 30px;
   border-radius: 5px;
@@ -354,7 +354,7 @@ h6 {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: black;
-  background: var(--marksoc-blue);
+  background: #7077b3;
 }
 
 .navbar .dropdown ul {
@@ -566,7 +566,7 @@ h6 {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear 2 2000ms;
+  animation: reveal 1200ms ease-in-out forwards 100ms, glow 2500ms linear 2 2000ms;
 }
 
 @keyframes reveal {
@@ -606,11 +606,11 @@ h6 {
   border-radius: 5px;
   transition: 0.5s;
   color: var(--secondary-color-text);
-  background: #7077b3;
+  background: var(--marksoc-blue);
 }
 
 #hero .btn-get-started:hover {
-  background: var(--marksoc-blue);
+  background: #7077b3;
   color: var(--primary-color);
 }
 
