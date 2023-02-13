@@ -553,7 +553,7 @@ h6 {
 
 #hero h1 {
   width: 100vw;
-  margin: 0;
+  margin: 10px;
   font-size: 75px;
   font-weight: 700;
   line-height: 56px;
@@ -571,6 +571,7 @@ h6 {
 
 @keyframes reveal {
   80% {
+    font-size: 99px;
     letter-spacing: 8px;
   }
 
