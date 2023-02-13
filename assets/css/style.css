@@ -63,6 +63,11 @@ body {
 .marksoc-moto h2 {
   font-size: 38px;
   font-weight: bold;
+   background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .moto::before {
@@ -1046,10 +1051,11 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #c4cdde;
+  background: black;
   color: black;
   margin: 0;
   padding: 0;
+  border-radius: 10px;
 }
 
 .team .member {
@@ -1142,7 +1148,7 @@ section {
 }
 
 .team .section-title h2 {
-  color: black;
+  color: var(--secondary-color-text);
   font-weight: bold;
   width: 100vw;
   font-size: 60px;
@@ -1155,11 +1161,8 @@ section {
 }
 
 .team .exec-reveal h3 {
+  color: var(--secondary-color-text);
   font-size: 35px;
-}
-
-.team .exec-reveal h3:hover {
-  font-size: 40px;
 }
 
 .team .core-reveal {
@@ -1169,11 +1172,8 @@ section {
 }
 
 .team .core-reveal h3 {
+  color: var(--secondary-color-text);
   font-size: 35px;
-}
-
-.team .core-reveal h3:hover {
-  font-size: 40px;
 }
 
 .team .row {
