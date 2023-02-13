@@ -571,7 +571,7 @@ h6 {
 
 @keyframes reveal {
   80% {
-    font-size: 100px;
+    font-size: 99px;
     letter-spacing: 8px;
   }
 
