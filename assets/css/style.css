@@ -45,9 +45,9 @@ body {
 
 .marksoc-moto {
   position: absolute;
-  top: 32vh;
+  top: 38vh;
   right: 6vw;
-  width: 60vw;
+  width: 65vw;
   height: 100vh;
   padding: 5px;
   margin: 0px;
@@ -56,6 +56,8 @@ body {
 .marksoc-moto h2 {
   font-size: 38px;
   font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 1px black, 0 0 13px rgb(79, 79, 224), 0 0 3px rgb(31, 31, 121);
 }
 
 
