@@ -45,7 +45,7 @@ body {
 
 .marksoc-moto {
   position: absolute;
-  top: 39vh;
+  top: 32vh;
   right: 6vw;
   width: 60vw;
   height: 100vh;
@@ -63,11 +63,6 @@ body {
 .marksoc-moto h2 {
   font-size: 38px;
   font-weight: bold;
-   background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-  background-size: cover;
-  color: transparent;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
 }
 
 .moto::before {
@@ -81,7 +76,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   z-index: -1;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 .contacts {
@@ -1051,6 +1046,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
+  font-family: 'Ubuntu', sans-serif;
   background: black;
   color: black;
   margin: 0;
@@ -1153,6 +1149,32 @@ section {
   width: 100vw;
   font-size: 60px;
   font-weight: bold;
+  color: var(--secondary-color);
+  -webkit-background-clip: text;
+  background: 50% 100%/50% 50% no-repeat linear-gradient(to right, #f32170, #ff6b08,
+      #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: reveal 1600ms ease-in-out forwards 100ms, glow 2500ms ease-in-out 2 2000ms;
+}
+
+@keyframes reveal {
+  80% {
+    font-size: 70px;
+    letter-spacing: 8px;
+  }
+
+  100% {
+    background-size: 300% 300%;
+  }
+}
+
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
 }
 
 .team .exec-reveal {
@@ -1161,8 +1183,9 @@ section {
 }
 
 .team .exec-reveal h3 {
-  color: var(--secondary-color-text);
-  font-size: 35px;
+  color: var(--marksoc-blue);
+  font-size: 45px;
+  text-shadow: 1px 1px 1px 1px gray;
 }
 
 .team .core-reveal {
@@ -1172,8 +1195,8 @@ section {
 }
 
 .team .core-reveal h3 {
-  color: var(--secondary-color-text);
-  font-size: 35px;
+  color: var(--marksoc-blue);
+  font-size: 45px;
 }
 
 .team .row {
@@ -1592,4 +1615,5 @@ section {
 
 a {
   text-decoration: none;
+}
 }
