@@ -67,7 +67,7 @@ body {
   font-weight: bold;
 }
 
-@media screen and (min-width: 390px){
+@media screen and (max-width: 480px){
   .moto .marksoc-moto h2{
     width: 230px;
     height: 650px;
