@@ -1233,13 +1233,13 @@ section {
   border-radius: 10px;
 }
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 390px){
   .team .row .member{
     width: 300px;
     padding: 10px;
   }
   .team .row .member img{
-    width: 290px;
+    width: 480px;
   }
 }
 
